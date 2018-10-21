@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Link to="/documents">Documents  ></Link>
-          <Route path="/dashboard" exact component={FullCardView} />
+          <Route path="/" exact component={FullCardView} />
           <Route path="/documents" exact component={Documents} />
         </div>
       </Router>
