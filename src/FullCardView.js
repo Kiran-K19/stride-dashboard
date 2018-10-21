@@ -17,7 +17,6 @@ class FullCardView extends React.Component {
             setInterval(() => {
             axios.get("https://api.myjson.com/bins/85j00")
               .then((response) => {
-                    //const res = response.data.reduce((acc, x) => [...acc, Object.values(x).map((y, i) => y)], []);
                     console.log(response);
                     this.setState({
                         isLoaded: true,
